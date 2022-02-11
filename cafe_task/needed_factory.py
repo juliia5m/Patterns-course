@@ -4,34 +4,34 @@ from abc import ABC
 from classes_ import Americano, Cappuccino, Expresso, Late, Tea
 
 
-class CafeFactory(ABC):
+class BeverageFactory(ABC):
 
     @abstractmethod
     def create_beverage(self):
         pass
 
 
-class AmericanoFactory(CafeFactory):
+class AmericanoFactory(BeverageFactory):
     def create_beverage(self):
         return Americano()
 
 
-class CappuccinoFactory(CafeFactory):
+class CappuccinoFactory(BeverageFactory):
     def create_beverage(self):
         return Cappuccino()
 
 
-class ExpressoFactory(CafeFactory):
+class ExpressoFactory(BeverageFactory):
     def create_beverage(self):
         return Expresso()
 
 
-class LateFactory(CafeFactory):
+class LateFactory(BeverageFactory):
     def create_beverage(self):
         return Late()
 
 
-class TeaFactory(CafeFactory):
+class TeaFactory(BeverageFactory):
     def create_beverage(self):
         return Tea()
 
