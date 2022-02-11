@@ -1,5 +1,5 @@
 from classes_ import *
-from needed_factory import ExpressoFactory, AmericanoFactory, LateFactory, CappuccinoFactory, TeaFactory, CafeFactory
+from needed_factory import ExpressoFactory, AmericanoFactory, LateFactory, CappuccinoFactory, TeaFactory, BeverageFactory
 
 
 
