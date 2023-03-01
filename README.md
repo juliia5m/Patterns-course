@@ -1,1 +1,1 @@
-Labs for patterns' course (Java/Python)
+# Labs for patterns' course (Java/Python)
